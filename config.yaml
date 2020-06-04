@@ -1,0 +1,32 @@
+# BOT settings
+usd_amount: 300
+timeframe: '1h'
+indicator_checks_per_timeframe: 4
+api_sleep: 5
+
+# gmail settings
+smtp_server: 'imap.gmail.com'
+smtp_port: 993
+email_account_1_username: 'email1******@gmail.com'
+email_account_1_password: '******'
+email_account_2_username: 'email2*****@gmail.com'
+email_account_2_password: '******'
+
+# BitMEX TESNET
+testnet: True
+BitMEXWebsocket_testnet_endpoint: 'https://testnet.bitmex.com/api/v1'
+TESTNET_WS_URL: 'wss://testnet.bitmex.com'
+TEST_KEY: 'rxdkY1D********_muqTYX2'
+TEST_SECRET: 'r6bvsC8w**********mC2TJE9tHM6'
+TEST_KEY_PLACE_CANCEL_NO_WITHDRAW: 'rxdk********_muqTYX2'
+TEST_SECRET_PLACE_CANCEL_NO_WITHDRAW: 'r6bvsC8wy*********VgDmC2TJE9tHM6'
+test_stop_percent_distance: 5
+test_take_profit_percent_distance: 10
+
+# BitMEX PROD
+BitMEXWebsocket_prod_endpoint: 'https://www.bitmex.com/api/v1'
+PROD_WS_URL: 'wss://www.bitmex.com'
+PROD_KEY_PLACE_CANCEL_NO_WITHDRAW: 'pTFA*******8VO29O'
+PROD_SECRET_PLACE_CANCEL_NO_WITHDRAW: 'M66nq4**********_TJWQkn71'
+prod_stop_percent_distance: 5
+prod_take_profit_percent_distance: 10
